@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<h1> Book Flight Tickets</h1>
+	<style type="text/css">
+		  body{
+ background-image: url("purp.jpg");
+}
+fieldset{
+	width: 1150px;
+	height: 1150px;
+	margin: 60px;
+    border-color:black;
+    border-style: solid;
+    font-size: 30px;
+    font-family:gabriola;
+    text-align: center;
+    align-self: center;
+}
+
+#One Way , #Round Trip , #Multi City , #From , #To , #Depart On , #Return  On , #Adults , #Children , #First Name , #Last Name{
+	border-style: solid;
+	border-color:black ;
+	width: 90px;
+	height: 30px;
+}
+ul{
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			overflow: hidden;
+			background-color: black; 
+		}
+		li{
+			float: left;
+		}
+		a{
+			display: block;
+			color: white;
+			text-decoration: underline;
+			text-align: center;
+			padding: 14px 16px;
+		}
+		a:hover{
+			background-color: grey;
+		}
+	</style>
+</head>
+<body>
+	      <ul>
+      	<li><a href="class.html" id="active"></a>>Home</a></li>
+      	<li><a href="Html page (2).html" id="Details">Details</a></li>
+        <li><a href="class.html#about" id="About">About Us</a></li>
+        <li><a href="Html page (3).html" id="Contact"> Contact Us</a></li>
+      </ul>
+	<fieldset>
+    <div align="left">
+    	<form method="get">
+    		First Name <input type="name" name="name"><br><br>
+    		Lat Name<input type="name" name="last name "><br><br>
+             One Way<input type="radio" name="One Way">
+             Round Trip<input type="radio" name="Round Trip">
+             Muti City<input type="radio" name="Multi City"><br><br>
+              From<br><input type="text" name="From" placeholder=" Any worldwide city/airport"><br><br>
+              To<br><input type="text" name="From" placeholder=" Any worldwide city/airport"><br><br>
+              Depart On <br><input type="date" name="Depart" placeholder="Pick a date"><br><br>
+              Return  On <br><input type="date" name="Depart" placeholder="Pick a date"><br><br>
+              Adults<br><input type="number" name="Adults"><br><br>
+               Children<br><input type="number" name="Children"><br><br>
+           </div>
+           </fieldset>
+    	</form>
+</body>
+</html>
