@@ -75,3 +75,10 @@ img {
   width: 460px;
   height: 345px;
 }
+button {
+  padding: 30px;
+  background-color: palevioletred;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10%;
+}
