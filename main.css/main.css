@@ -3,7 +3,6 @@ ul {
   margin: 1px;
   padding: 2px;
   overflow: hidden;
-  background-color: navy;
 }
 
 ul li {
@@ -19,7 +18,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: aqua;
+  background-color: rgb(99, 159, 173);
 }
 #image1 {
   border-radius: 50%;
@@ -37,29 +36,12 @@ ul li a:hover {
   border: 1px transparent solid;
   border-radius: 50%;
 }
-#image2 {
-  height: 100px;
-  width: 140px;
-}
-#calculator {
-  border: 2px black dotted;
-  width: fit-content;
-  height: fit-content;
-  padding: 20px;
-}
-#image3 {
-  height: 100px;
-  width: 140px;
-  vertical-align: middle;
-  align-items: left;
-}
 body {
   height: 100%;
   color: white;
-  background-image: url("../images/img_tree.gif"), url("../images/paper.jpeg");
-  background-repeat: no-repeat, repeat;
-  background-color: burlywood;
+  background-image: url(../images/back\ img.jfif);
   align-items: flex-end;
+  background-size: 1600px 1500px;
 }
 h2 {
   font-size: 40px;
@@ -81,4 +63,41 @@ button {
   width: fit-content;
   height: fit-content;
   border-radius: 10%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#calculator {
+  width: 450px;
+  height: auto;
+  margin: 6px;
+}
+
+#image4 {
+  width: 450px;
+  height: auto;
+  margin: 6px;
+}
+#image3 {
+  width: 450px;
+  height: auto;
+  margin: 6px;
 }
